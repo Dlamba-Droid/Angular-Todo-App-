@@ -1,0 +1,315 @@
+{
+  "signup": [
+    {
+      "fname": "Daniel",
+      "lname": "Junior",
+      "Username": "Dlamba1",
+      "Email": "Danielalamba15@gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 1
+    },
+    {
+      "fname": "Gaius ",
+      "lname": "Alamba",
+      "Email": "gaiusalamba@yahoo.com",
+      "phone": "08069592613",
+      "password": "G41U5",
+      "id": 2
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 3
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 4
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 5
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 6
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 7
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "id": 8
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Finish User authentication ",
+      "id": 9
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Finish User authentication ",
+      "id": 10
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Finish User authentication ",
+      "id": 11
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Description of to do",
+      "id": 12
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Description of to do",
+      "UserId": "",
+      "id": 13
+    },
+    {
+      "Heading": "Test",
+      "Description": "UserID test",
+      "UserID": "",
+      "id": 14
+    },
+    {
+      "Heading": "TEST header",
+      "Description": "Test Description",
+      "UserID": "",
+      "id": 15
+    },
+    {
+      "Heading": "Test2",
+      "Description": "Description2",
+      "UserID": "",
+      "id": 16
+    },
+    {
+      "Heading": "hjhghjhghjgj",
+      "Description": "hjhgchchg",
+      "UserID": "",
+      "id": 17
+    },
+    {
+      "Heading": "Test",
+      "Description": "UserID test",
+      "UserID": "100",
+      "id": 18
+    },
+    {
+      "fname": "James",
+      "lname": "Samuel",
+      "Email": "Samueljames@yahoo.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 23
+    },
+    {
+      "Heading": "Design BOAX frontend",
+      "Description": "After designing UI, start working om the frontend",
+      "UserID": "23",
+      "id": 26
+    },
+    {
+      "Heading": "TEST header",
+      "Description": "To do task addition and subtraction seem to be working fine",
+      "UserID": "23",
+      "id": 27
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Finished User authentication ",
+      "UserID": "1",
+      "Date": "2023-08-24",
+      "id": 30
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "After designing UI, start working om the frontend",
+      "UserID": "1",
+      "Date": "2023-08-28",
+      "id": 34
+    },
+    {
+      "Heading": "Future Task",
+      "Description": "This is a future task",
+      "UserID": "1",
+      "Date": "2023-08-31",
+      "id": 36
+    },
+    {
+      "Heading": "Another Future task",
+      "Description": "Future task number 2",
+      "UserID": "1",
+      "Date": "2023-09-01",
+      "id": 37
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "Email": null,
+      "phone": null,
+      "password": null,
+      "id": 38
+    },
+    {
+      "Heading": "Username input and validation",
+      "Description": "Create username input and validation to check if the username already exists",
+      "UserID": "39",
+      "Date": "2023-08-29",
+      "id": 40
+    },
+    {
+      "Heading": "Login requirements update",
+      "Description": "Use username as one of the login requirements. Replacing name",
+      "UserID": "39",
+      "Date": "2023-08-29",
+      "id": 41
+    },
+    {
+      "Heading": "sgdvfdc",
+      "Description": "etcsfvvsed",
+      "UserID": "39",
+      "Date": "2023-08-29",
+      "id": 42
+    },
+    {
+      "fname": "Daniel",
+      "lname": "Junior",
+      "Username": "Dlamba",
+      "Email": "Danielalamba@gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 43
+    },
+    {
+      "Heading": "Design BOAX frontend",
+      "Description": "Description of to do",
+      "UserID": "43",
+      "Date": "2023-08-29",
+      "id": 44
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Finish User authentication ",
+      "UserID": "43",
+      "Date": "2023-08-30",
+      "id": 45
+    },
+    {
+      "Heading": "Pre task",
+      "Description": "A pre task",
+      "UserID": "43",
+      "Date": "2023-08-28",
+      "id": 46
+    },
+    {
+      "Heading": "TEST header",
+      "Description": "Description of to do",
+      "UserID": "43",
+      "Date": "2023-08-31",
+      "id": 47
+    },
+    {
+      "fname": "Alamba",
+      "lname": "Junior",
+      "Username": "DxA",
+      "Email": "Danielalamba@gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 48
+    },
+    {
+      "fname": "Daniel",
+      "lname": "Junior",
+      "Username": "Dlamba2",
+      "Email": "AlambaDaniel@gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 49
+    },
+    {
+      "fname": "Daniel",
+      "lname": "Junior",
+      "Username": "Dlamba3",
+      "Email": "djahahcb",
+      "phone": "08069592613",
+      "password": "asdasdas",
+      "id": 50
+    },
+    {
+      "fname": "Alamba",
+      "lname": "Junior",
+      "Username": "Dlamba10",
+      "Email": "Alambadaniel@gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 51
+    },
+    {
+      "Heading": "Test",
+      "Description": "Test task",
+      "UserID": "51",
+      "Date": "2023-08-30",
+      "id": 52
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "After designing UI, start working om the frontend",
+      "UserID": "51",
+      "Date": "2023-08-30",
+      "id": 53
+    },
+    {
+      "Heading": "Test",
+      "Description": "Finish User authentication ",
+      "UserID": "51",
+      "Date": "2023-08-31",
+      "id": 54
+    },
+    {
+      "Heading": "Design BOAX frontend",
+      "Description": "Test Description",
+      "UserID": "51",
+      "Date": "2023-08-29",
+      "id": 55
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Description of to do",
+      "UserID": "1",
+      "Date": "2023-08-30",
+      "id": 56
+    },
+    {
+      "fname": "Idris",
+      "lname": "Bala",
+      "Username": "idrisbumar",
+      "Email": "idreesbalaumar@gmail.com",
+      "phone": "08066679100",
+      "password": "password",
+      "id": 57
+    },
+    {
+      "Heading": "User Authentication",
+      "Description": "Description of to do",
+      "UserID": "43",
+      "Date": "2023-09-01",
+      "id": 58
+    },
+    {
+      "Heading": "Test",
+      "Description": "After designing UI, start working om the frontend",
+      "UserID": "43",
+      "Date": "2023-09-02",
+      "id": 59
+    }
+  ]
+}

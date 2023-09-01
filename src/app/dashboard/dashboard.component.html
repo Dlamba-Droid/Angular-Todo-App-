@@ -1,0 +1,66 @@
+<app-nav></app-nav>
+<h2 class="heading">&nbsp; Welcome</h2>
+
+<br>
+<div class="ovr">
+    <h1>Your tasks</h1>
+    <br>
+<div class="container">
+<div class="container1" >
+    <form (ngSubmit)="Addtask()" #TaskAdd="ngForm" class="form-box">
+        <h4>Add a task</h4>
+        <div class="form-group">
+        <label for="Heading">Heading:</label>
+        <input type="text" name="Heading" id="Heading" title="heading" [(ngModel)]="newPost.Heading" class="form-control mb-3 mt-3" required>
+    </div>
+        <br>
+        <div clas="form-floating">
+        <label for="Description">Description:</label>
+        <input type="text" name="Description" id="Description" title="Description" [(ngModel)]="newPost.Description" class="form-control mb-3 mt-3" required>
+    </div>
+        <br>
+        <div clas="form-floating">
+            <label for="Description">Due Date:</label>
+            <input type="Date" name="Date" id="Date" title="Date" [(ngModel)]="newPost.Date" class="form-control mb-3 mt-3" required>
+        </div>
+        <button class="btn btn-success" type="submit">Add</button>
+    </form>
+    </div>
+
+
+<div class="container2 form-box2">
+    <label>Start date:</label>
+    <input type="Date" name="Date" title="Search" [(ngModel)]="startdate" (ngModelChange)="onDateSearch()" class="form-control mb-3 mt-3" [defaultValue]="" required>
+    <label>End date:</label>
+    <input type="Date" name="Date" title="Search" [(ngModel)]="enddate" (ngModelChange)="onDateSearch()" class="form-control mb-3 mt-3" [defaultValue]="" required>
+
+    <br>
+<ul>
+    <li *ngFor=" let post of filteredItems">
+       <form>
+        <h3>{{post.Heading}}</h3>
+        <p>{{post.Description}}</p>
+        <div class="timectrl">
+        <div *ngIf="post.Date > today">
+            <img alt src="../../assets/icons8-timer-48 (1).png">
+        </div>
+        <div *ngIf="post.Date < today">
+            <img alt src="../../assets/icons8-timer-48.png">
+        </div>
+        <div *ngIf="post.Date === today.toString()">
+            <img alt src="../../assets/icons8-timer-48 (2).png">
+
+        </div>
+        <p>{{post.Date}}</p>
+    </div>
+        
+        
+        <button type="button" (click)="delete(post.id)" class="btn btn-success" name="">Delete</button>
+    </form>
+        <hr>
+    </li>
+    
+</ul>
+</div>
+</div>
+</div>
