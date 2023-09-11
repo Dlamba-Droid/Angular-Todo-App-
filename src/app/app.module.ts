@@ -11,6 +11,7 @@ import { NavComponent } from './nav/nav.component';
 import { TodoComponent } from './todo/todo.component';
 import { AddtaskComponent } from './addtask/addtask.component';
 import { FormsModule } from '@angular/forms';
+import { UserserviceService } from './userservice.service';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     ReactiveFormsModule,
     HttpClientModule,
-    FormsModule
+    FormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

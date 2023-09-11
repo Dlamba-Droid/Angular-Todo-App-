@@ -2,6 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { error } from 'jquery';
 import Swal from 'sweetalert2';
+import { Observable } from 'rxjs';
+import { UserserviceService } from '../userservice.service';
 
 export interface TaskResources {
   Heading: string,
@@ -34,7 +36,7 @@ export class DashboardComponent implements OnInit {
 targetDate: string;
 today: String = new Date().toISOString().split('T')[0];
 
-  constructor(private http:HttpClient){
+  constructor(private http:HttpClient, public userservice:UserserviceService){
 
     this.newPost.Description = '';
     this.newPost.Heading = '';
@@ -146,7 +148,7 @@ today: String = new Date().toISOString().split('T')[0];
   }
 
   fetchPosts() {
-    this.http.get('http://localhost:3000/signup')
+    this.userservice.getContent()
     .subscribe(
       (response: any) => {
         this.posts = response;

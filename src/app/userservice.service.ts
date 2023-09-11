@@ -7,5 +7,10 @@ import { HttpClient } from '@angular/common/http';
 export class UserserviceService {
 
   constructor(private http: HttpClient) { }
+  url = 'http://localhost:3000/signup'
   
+  getContent(){
+   return this.http.get('http://localhost:3000/signup');
+
+  }
 }

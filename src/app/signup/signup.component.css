@@ -2,7 +2,9 @@
     width:400px;
     height:auto;
     padding: 25px;
-    background-color: antiquewhite;
+    background-image: linear-gradient(green, antiquewhite);
+    border: 1px solid green;
+    color:white;
     position: absolute;
     transform: translate(-50%, 50%);
     border-radius: 10px;

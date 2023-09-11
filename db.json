@@ -190,34 +190,6 @@
       "id": 43
     },
     {
-      "Heading": "Design BOAX frontend",
-      "Description": "Description of to do",
-      "UserID": "43",
-      "Date": "2023-08-29",
-      "id": 44
-    },
-    {
-      "Heading": "User Authentication",
-      "Description": "Finish User authentication ",
-      "UserID": "43",
-      "Date": "2023-08-30",
-      "id": 45
-    },
-    {
-      "Heading": "Pre task",
-      "Description": "A pre task",
-      "UserID": "43",
-      "Date": "2023-08-28",
-      "id": 46
-    },
-    {
-      "Heading": "TEST header",
-      "Description": "Description of to do",
-      "UserID": "43",
-      "Date": "2023-08-31",
-      "id": 47
-    },
-    {
       "fname": "Alamba",
       "lname": "Junior",
       "Username": "DxA",
@@ -305,11 +277,41 @@
       "id": 58
     },
     {
-      "Heading": "Test",
-      "Description": "After designing UI, start working om the frontend",
+      "fname": "Samuel",
+      "lname": "David",
+      "Username": "Dlamba100",
+      "Email": "danielalamba152gmail.com",
+      "phone": "08069592613",
+      "password": "Alambata5",
+      "id": 60
+    },
+    {
+      "Heading": "Learn Resolver",
+      "Description": "Learn Resolver",
       "UserID": "43",
-      "Date": "2023-09-02",
-      "id": 59
+      "Date": "2023-09-05",
+      "id": 61
+    },
+    {
+      "Heading": "observables",
+      "Description": "angular observables",
+      "UserID": "43",
+      "Date": "2023-09-05",
+      "id": 62
+    },
+    {
+      "Heading": "modular architecture",
+      "Description": "Angular modular architecture",
+      "UserID": "43",
+      "Date": "2023-09-05",
+      "id": 63
+    },
+    {
+      "Heading": "",
+      "Description": "",
+      "UserID": "43",
+      "Date": "2023-09-09",
+      "id": 64
     }
   ]
 }
